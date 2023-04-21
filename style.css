@@ -1,0 +1,121 @@
+*{
+    background: #BCD9D6;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+
+}
+
+.input-texto{
+    height: 400px;
+    border: none;
+    color: #678B81;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+
+}
+
+::placeholder{ color: #678B81; }
+    .input-texto:focus{
+        outline: none;
+
+    }
+
+.output-texto{
+    height: 630px;
+    background: #282E2E;
+    background-image: url("C:\Users\Danny Hell\Desktop\DanielAlura\Challenge 01 Encriptador\muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    border: none;
+    border-radius: 24px;
+    color: #678B81;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+}
+
+.output-texto:focus{
+    outline: none;
+
+}
+
+.botones{
+    display: flex;
+    margin-top: 75px;
+
+}
+
+.desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #678B81;
+    border-radius: 24px;
+    color: #678B81;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+
+.encriptar{
+    background-color: #678B81;
+    border: 1px solid #678B81;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    width: 328px;
+    height: 67px;
+    
+}
+
+.copiar{
+    border: 1px solid #678B81;
+    border-radius: 24px;
+    color: #678B81;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+
+}
+
+.recomendaciones{
+    font-size: 18px;
+    color: #495057;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.cright{
+    color: #678B81;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    
+}
